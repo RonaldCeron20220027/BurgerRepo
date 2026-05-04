@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BurgerShort</title>
+    <!-- CSS de Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark-subtle">
+      <div class="container">
+        <a class="navbar-brand" href="#">BurgerShort </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Reserva</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contactanos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Carrucel -->
+    <div id="Slider1" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#Slider1"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#Slider1"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#Slider1"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div
+          class="carousel-item active"
+          style="height: 500px; object-fit: cover"
+        >
+          <img
+            src="img/hamburguesas-a-domicilio-cerca-de-mi-min-scaled.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/hamburguesas.r_d.560-424.webp"
+            style="height: 500px; object-fit: cover"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/8noqFvHGyQzT2SsdZ-2400-x.webp"
+            style="height: 500px; object-fit: cover"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#Slider1"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#Slider1"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Seccion Principal -->
+    <main class="py-4 bf-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h2>Bienvenido a nuestro restaurante</h2>
+            <p class="lead text-secondary">
+              Disfruta de los mejores hambuerguesas en un entoro acogedor
+            </p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos
+              quaerat quibusdam non commodi molestias quidem maiores mollitia
+              nostrum distinctio, beatae, nulla architecto eveniet tempora
+              obcaecati ducimus natus corporis, ab dicta!
+            </p>
+            <div class="d-flex gap-2 flex-wrap">
+              <a href="#" class="btn btn-danger">Explorar Menu</a>
+              <a href="#" class="btn btn-success">Contactanos</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="img/74494a8887791.560e69eda2f70.jpg"
+              alt="jpg"
+              class="img-fluid rounded shadow"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Tarjetas -->
+
+    <section class="container py-3">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+          <div class="card">
+            <img
+              src="img/8noqFvHGyQzT2SsdZ-2400-x.webp"
+              alt="webp"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5>Hambuerguesas al carbon</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et hic
+                quisquam fugit obcaecati consequatur. Similique, nemo eius
+                reprehenderit explicabo sint laboriosam, quae alias natus a hic,
+                enim nulla suscipit porro.
+              </p>
+              <a href="#" class="btn btn-warning">Ordenar ahora</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+          <div class="card">
+            <img
+              src="img/8noqFvHGyQzT2SsdZ-2400-x.webp"
+              alt="webp"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5>Hambuerguesas al carbon</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et hic
+                quisquam fugit obcaecati consequatur. Similique, nemo eius
+                reprehenderit explicabo sint laboriosam, quae alias natus a hic,
+                enim nulla suscipit porro.
+              </p>
+              <a href="#" class="btn btn-warning">Ordenar ahora</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+          <div class="card">
+            <img
+              src="img/8noqFvHGyQzT2SsdZ-2400-x.webp"
+              alt="webp"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5>Hambuerguesas al carbon</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et hic
+                quisquam fugit obcaecati consequatur. Similique, nemo eius
+                reprehenderit explicabo sint laboriosam, quae alias natus a hic,
+                enim nulla suscipit porro.
+              </p>
+              <a href="#" class="btn btn-warning">Ordenar ahora</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
+          <div class="card">
+            <img
+              src="img/8noqFvHGyQzT2SsdZ-2400-x.webp"
+              alt="webp"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5>Hambuerguesas al carbon</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et hic
+                quisquam fugit obcaecati consequatur. Similique, nemo eius
+                reprehenderit explicabo sint laboriosam, quae alias natus a hic,
+                enim nulla suscipit porro.
+              </p>
+              <a href="#" class="btn btn-warning">Ordenar ahora</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="navbar bg-dark-subtle py-4">
+        <div class="container d-flex justify-content-around fex-wrap gap-3 align-items-center">
+           <span>BurgerShort</span>
+           <span>&copy;2026 Burger Shot. Todos los derchos reservados</span>
+           <div class="d-flex gap-3">
+                <a href="#" class="btn btn-outline-dark">Inicio</a>
+                <a href="#" class="btn btn-outline-dark">Menu</a>
+           </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript de Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
